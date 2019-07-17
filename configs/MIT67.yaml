@@ -1,0 +1,14 @@
+EXP:
+    ID: MIT67
+    OUTPUT_DIR:  
+
+DATASET:
+    NAME: MIT67
+    ROOT:  
+    N_CLASSES: 67
+    SPLIT:
+        TRAIN:  
+        TEST:  
+PRETRAINED:
+    NAME: 
+    WEIGHT_PATH: 

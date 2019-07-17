@@ -1,0 +1,17 @@
+EXP:
+    ID: SUN_Attribute
+    OUTPUT_DIR: data
+
+DATASET:
+    NAME: SUN_Attribute
+    ROOT: ""
+    N_CLASSES: 102  
+    SPLIT:
+        TRAIN: ""   
+        TEST: ""   
+ 
+PARAMETER:
+    BATCH_SIZE: 32
+    LR: 0.08
+
+WEIGHT_PATH: "./data/models/"

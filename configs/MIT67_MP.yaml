@@ -1,0 +1,26 @@
+EXP:
+    ID: MIT67
+    OUTPUT_DIR: data
+
+DATASET:
+    NAME: MIT67
+    ROOT: IMAGE_ROOT
+    N_CLASSES: 67
+    TOTAL: 6700
+    SPLIT:
+        TRAIN:
+        TEST: 
+FEATURE:
+    NAME: ['DenseNet161_A-ImageNet', 'DenseNet161_Places365']
+    SIZE: ['224feature', '448_128feature']
+    DIR: 
+
+PARAMETER:
+    LAMB: 0.001
+    WINSIZE: 6
+    ITER_MRF: 1
+    ITER_MP: 1
+    MIN_INC: 0.0001
+    LR: 2.0
+    W_LIST: [[0.6, 0.3], [0.8, 0.4]]
+ 
