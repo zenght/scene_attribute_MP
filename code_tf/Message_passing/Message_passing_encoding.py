@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on 05/05/2018
+Created on 09/05/2018
 
 Description: Aggregate ImageNet-based and Places-based features of MIT67 by using Message Passing
 
