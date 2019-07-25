@@ -1,5 +1,5 @@
-# scene attribute Message passing
-This is code of <Learning scene attribute for scene recognition>, our code is mainly implemented by Tensorflow, the pytorch code is also available (just need to change the shape of features). Since the paper is still under review, the method might be not easy to undedstand. But if you want to use our method, we have packaged our code, you only need to modify the corresponding feature path in the config.   
+# Learning scene attribute for scene recognition
+This is code of <Learning scene attribute for scene recognition>, our code is mainly implemented by Tensorflow, the pytorch code is also available (just need to change the shape of features). If you want to use our method, we have packaged our code, you only need to modify the corresponding feature path in the config. We optimize the features by hierchiacal 
 
 # Evaluation results on MIT67 and SUN397
 |Model|MIT67(%)|SUN397(%)|
