@@ -1,2 +1,2 @@
 # scene_attribute_MP
-Our code is implemented based on Tensorflow. The pytorch version will be uploaded soon
+This is code of <Learning scene attribute for scene recognition>, our code is mainly implemented by Tensorflow, the pytorch code is also available (just need to change the shape of features). Since the paper is still under review, the method might be not easy to undedstand. But if you want to use our method, we have packaged our code, you only need to modify the corresponding feature path in the config.   
