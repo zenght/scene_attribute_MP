@@ -1,5 +1,5 @@
 # Learning scene attribute for scene recognition
-This is code of <Learning scene attribute for scene recognition>, our code is mainly implemented by Tensorflow, the pytorch code is also available (just need to change the shape of features). If you want to use our method, we have packaged our code, you only need to modify the corresponding feature path in the config. We optimize the features by hierchiacal 
+This is code of <Learning scene attribute for scene recognition>, our code is mainly implemented by Tensorflow, the pytorch code is also available (just need to change the shape of features). If you want to use our method, we have packaged our code, you only need to modify the corresponding feature path in the config. We optimize the features by hierarchical message passing, and use these optimized features to train LinearSVM to conduct scene recognition.
 
 # Evaluation results on MIT67 and SUN397
 |Model|MIT67(%)|SUN397(%)|
