@@ -20,7 +20,7 @@ import numpy as np
 import math
 import yaml
 from easydict import EasyDict as edict
-# tmp_dir = '/home/cgw/Data2-CGW/tmp/TF'
+
 tmp_dir = '/home/haitaizeng/stanforf/song_works'
 
 
